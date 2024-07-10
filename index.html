@@ -66,11 +66,12 @@
             <div class="section">
               <div class="container">
                 <div class="button-container">
-                  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/official-srv-modak" rel="tooltip"
-                    title="Github Page">
+                  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/official-srv-modak"
+                    rel="tooltip" title="Github Page">
                     <i class="fa fa-github"></i>
                   </a>
-                  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/sourav-modak-b54316161/" rel="tooltip"
+                  <a class="btn btn-default btn-round btn-lg btn-icon"
+                    href="https://www.linkedin.com/in/sourav-modak-b54316161/" rel="tooltip"
                     title="Follow me on LinkedIn">
                     <i class="fa fa-linkedin"></i>
                   </a>
@@ -88,7 +89,8 @@
               <div class="col-lg-6 col-md-12">
                 <div class="card-body">
                   <div class="h4 mt-0 title">About</div>
-                  <p>Hello! I am Sourav Modak. As a seasoned backend developer, I excel in crafting scalable server-side solutions and
+                  <p>Hello! I am Sourav Modak. As a seasoned backend developer, I excel in crafting scalable server-side
+                    solutions and
                     optimizing
                     performance. With substantial industrial experience, I've successfully delivered robust
                     backend
@@ -127,14 +129,14 @@
                       const birthDate = new Date(birthdate);
                       let age = today.getFullYear() - birthDate.getFullYear();
                       const monthDifference = today.getMonth() - birthDate.getMonth();
-                
+
                       if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDate.getDate())) {
                         age--;
                       }
                       return age;
                     }
-                
-                    document.addEventListener("DOMContentLoaded", function() {
+
+                    document.addEventListener("DOMContentLoaded", function () {
                       const birthdate = '1996-10-07';
                       const age = calculateAge(birthdate);
                       document.getElementById('age').textContent = age;
@@ -236,46 +238,43 @@
             <div class="tab-pane active" id="web-development">
               <div class="ml-auto mr-auto">
                 <div class="row">
-                  <div class="col-md-6">
-                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                      <a href="#web-development">
-                        <figure class="cc-effect"><img src="images/project-1.png" alt="Image" />
+                  <div class="col-md-4">
+                    <div class="cc-portfolio-image" data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom">
+                      <a href="https://play.google.com/store/apps/details?id=com.souravmodak.cameroscopy&hl=en">
+                        <figure class="cc-effect">
+                          <img src="images/project-1.png" alt="Image" />
                           <figcaption>
-                            <div class="h4">Recent Project</div>
-                            <p>Web Development</p>
-                          </figcaption>
-                        </figure>
-                      </a>
-                    </div>
-                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom" style="display: flex; justify-content: center; align-items: center; width: 100%;">
-                      <a href="#web-development">
-                        <figure class="cc-effect justify-content-end" style="width: 100%; text-align: center;">
-                          <img src="images/project-2.png" alt="Image" style="max-width: 70%; height: auto; display: block; margin: 0 auto;"/>
-                          <figcaption>
-                            <div class="h4">Startup Project</div>
-                            <p>Web Development</p>
+                            <div class="h4">Research Project</div>
+                            <p>Cameroscopy app</p>
                           </figcaption>
                         </figure>
                       </a>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                      <a href="#web-development">
-                        <figure class="cc-effect"><img src="images/project-3.png" alt="Image" />
+                  <div class="col-md-4">
+                    <div class="cc-portfolio-image" data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom">
+                      <a href="https://github.com/official-srv-modak/mda_product_UI">
+                        <figure class="cc-effect">
+                          <img src="images/project-2.png" alt="Image" />
                           <figcaption>
-                            <div class="h4">Food Order Project</div>
-                            <p>Web Development</p>
+                            <div class="h4">Machine Learning Analysis Project</div>
+                            <p>MD Analytics</p>
                           </figcaption>
                         </figure>
                       </a>
                     </div>
-                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                      <a href="#web-development">
-                        <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image" />
+                  </div>
+                  <div class="col-md-4">
+                    <div class="cc-portfolio-image" data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom">
+                      <a href="https://github.com/official-srv-modak/OTTServer">
+                        <figure class="cc-effect">
+                          <img src="images/project-3.png" alt="Image" />
                           <figcaption>
-                            <div class="h4">Web Advertising Project</div>
-                            <p>Web Development</p>
+                            <div class="h4">OTTServer Project</div>
+                            <p>Cross Platform OTTServer</p>
                           </figcaption>
                         </figure>
                       </a>
@@ -284,7 +283,8 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane" id="graphic-design" role="tabpanel">
+
+            <!-- <div class="tab-pane" id="graphic-design" role="tabpanel">
               <div class="ml-auto mr-auto">
                 <div class="row">
                   <div class="col-md-6">
@@ -333,8 +333,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="tab-pane" id="Photography" role="tabpanel">
+            </div> -->
+            <!-- <div class="tab-pane" id="Photography" role="tabpanel">
               <div class="ml-auto mr-auto">
                 <div class="row">
                   <div class="col-md-6">
@@ -383,7 +383,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -394,18 +394,17 @@
             <div class="row">
               <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body cc-experience-header">
-                  <p>March 2016 - Present</p>
-                  <div class="h5">CreativeM</div>
+                  <p>August 2021 - August 2023</p>
+                  <div class="h5">Infosys</div>
                 </div>
               </div>
               <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body">
-                  <div class="h5">Front End Developer</div>
-                  <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
-                    tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend
-                    primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros
-                    pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium
-                    molestie ultricies sollicitudin dui.</p>
+                  <div class="h5">Back End Developer</div>
+                  <p>Worked on Spectrum OTT platform by Charter communication an Infosys client.
+                    Responsibilities includes full comprehensive architectural design and code development
+                    for client based on Spring framework for the login and authentication module. Have
+                    also been the architect for spring boot migration of their login module services.</p>
                 </div>
               </div>
             </div>
@@ -414,18 +413,18 @@
             <div class="row">
               <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body cc-experience-header">
-                  <p>April 2014 - March 2016</p>
-                  <div class="h5">WebNote</div>
+                  <p>July 2019- August 2021</p>
+                  <div class="h5">Temenos</div>
                 </div>
               </div>
               <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body">
-                  <div class="h5">Web Developer</div>
-                  <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
-                    tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend
-                    primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros
-                    pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium
-                    molestie ultricies sollicitudin dui.</p>
+                  <div class="h5">API Developer</div>
+                  <p>Worked for corporate lending team in temenos, as a mediator, and have made API for
+                    T24 backends and front end to communicate. This is to ensure the loose coupling
+                    between the technologies and also, allowing the banks to use whatever front end they
+                    like. Uses swagger and proprietary framework built on top of spring boot to make the
+                    REST API.</p>
                 </div>
               </div>
             </div>
@@ -434,18 +433,17 @@
             <div class="row">
               <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body cc-experience-header">
-                  <p>April 2013 - February 2014</p>
-                  <div class="h5">WEBM</div>
+                  <p>Jan 2019 - June 2019</p>
+                  <div class="h5">Temenos</div>
                 </div>
               </div>
               <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body">
                   <div class="h5">Intern</div>
-                  <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
-                    tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend
-                    primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros
-                    pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium
-                    molestie ultricies sollicitudin dui.</p>
+                  <p>Was a intern at the company Temenos, which I placed later in July 2019. Worked and acquired
+                    knowledge about
+                    core banking technologies and how different technologies talk.
+                  </p>
                 </div>
               </div>
             </div>
@@ -459,19 +457,15 @@
             <div class="row">
               <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body cc-education-header">
-                  <p>2013 - 2015</p>
-                  <div class="h5">Master's Degree</div>
+                  <p>2023 - Present</p>
+                  <div class="h5">PG Diploma Certificate</div>
                 </div>
               </div>
               <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body">
-                  <div class="h5">Master of Information Technology</div>
-                  <p class="category">University of Computer Science</p>
-                  <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
-                    tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend
-                    primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros
-                    pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium
-                    molestie ultricies sollicitudin dui.</p>
+                  <div class="h5">Information Technology Solutions</div>
+                  <p class="category">Humber College</p>
+                  <p>Studying advanced computer science and newer technologies at Humber College, Tornto, Ontario.</p>
                 </div>
               </div>
             </div>
@@ -480,19 +474,18 @@
             <div class="row">
               <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body cc-education-header">
-                  <p>2009 - 2013</p>
-                  <div class="h5">Bachelor's Degree</div>
+                  <p>2015 - 2019</p>
+                  <div class="h5">Bachelor of Technology</div>
                 </div>
               </div>
               <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body">
-                  <div class="h5">Bachelor of Computer Science</div>
-                  <p class="category">University of Computer Science</p>
-                  <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
-                    tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend
-                    primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros
-                    pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium
-                    molestie ultricies sollicitudin dui.</p>
+                  <div class="h5">Computer Science and Engineering</div>
+                  <p class="category">SRM University</p>
+                  <p>Have a Computer Science Engineering degree from one of the premier institute of India, where I
+                    studied
+                    and perfected the craft of programming and software development.
+                  </p>
                 </div>
               </div>
             </div>
@@ -501,26 +494,22 @@
             <div class="row">
               <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body cc-education-header">
-                  <p>2007 - 2009</p>
+                  <p>2013 - 2014</p>
                   <div class="h5">High School</div>
                 </div>
               </div>
               <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body">
                   <div class="h5">Science and Mathematics</div>
-                  <p class="category">School of Secondary board</p>
-                  <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
-                    tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend
-                    primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros
-                    pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium
-                    molestie ultricies sollicitudin dui.</p>
+                  <p class="category">Kendriya Vidhyala (KV) No. 2 SVN, (CBSE)</p>
+                  <p>High School equivalent in Science and Mathematics stream</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="section" id="reference">
+      <!-- <div class="section" id="reference">
         <div class="container cc-reference">
           <div class="h4 mb-4 text-center title">References</div>
           <div class="card" data-aos="zoom-in">
@@ -583,7 +572,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="section" id="contact">
         <div class="cc-contact-information" style="background-image: url('images/staticmap.png')">
           <div class="container">
@@ -595,7 +584,7 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="card-body">
-                          <form action="https://formspree.io/your@email.com" method="POST">
+                          <form action="https://formspree.io/f/meojqpkp" method="POST">
                             <div class="p pb-3"><strong>Feel free to contact me </strong></div>
                             <div class="row mb-3">
                               <div class="col">
@@ -660,6 +649,7 @@
       </div>
     </div>
   </div>
+
   <footer class="footer">
     <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x "
           aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x "
