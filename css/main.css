@@ -7713,3 +7713,20 @@ a.credit {
   width: 100%;
   padding: 10px;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensures cards take up full height */
+  margin: 10px;
+}
+.col-md-6{
+  margin-bottom: 10px;
+}
+
