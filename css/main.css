@@ -7633,3 +7633,66 @@ a.credit {
   background-color: white;
   color: black;
 }
+
+.custom-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.custom-bullets li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.custom-bullets li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #000; /* Change to your desired color */
+  border-radius: 50%;
+  opacity: 0.8; /* Adjust opacity as needed */
+}
+
+.h5.single-line {
+  display: block;
+  font-size: 1em; /* Initial font size */
+  white-space: normal; /* Allow wrapping by default */
+}
+
+.h5.single-line.no-wrap {
+  white-space: nowrap; /* Prevent wrapping for single words */
+  overflow: hidden;
+}
+
+.same-size-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.same-size-card .card {
+  height: 100%;
+}
+
+.same-size-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.same-size-card .card-title {
+  margin-bottom: 1rem;
+}
+
+.same-size-card .custom-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.same-size-card .custom-bullets li {
+  margin-bottom: 0.5rem;
+}
+
+
