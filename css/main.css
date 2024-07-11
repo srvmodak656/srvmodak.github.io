@@ -7724,7 +7724,6 @@ a.credit {
   display: flex;
   flex-direction: column;
   height: 100%; /* Ensures cards take up full height */
-  margin: 10px;
 }
 .col-md-6{
   margin-bottom: 10px;
