@@ -7708,3 +7708,8 @@ a.credit {
   border-color: #000; /* Adjust border color on hover if needed */
 }
 
+.bg-black {
+  background-color: #000 !important; /* Override Bootstrap's bg-black if needed */
+  width: 100%;
+  padding: 10px;
+}
